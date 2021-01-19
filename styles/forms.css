@@ -1,0 +1,167 @@
+/* formating Forms */
+/*
+Company Name: Zorkif Technology Center
+Web Site: http://www.zorkif.com
+File: Kifayat Forms CSS
+Author: Kifayat Ullah
+Author URI: http://www.zorkif.com
+Licence: Free to Use if you want
+*/
+
+:focus::-webkit-input-placeholder{color:transparent;}
+
+
+/* Style the form */
+.data_entry_view {
+	color:#777;	
+}
+.data_entry_view form fieldset {
+	border: 1px solid #777;
+	padding:10px;
+	overflow:hidden;	
+}
+
+.data_entry_view form legend {
+ /* IE6-8 */
+
+ 
+ 	maring-left:10px;
+	padding:3px 10px;
+	font-size:0.9em;
+	line-height:20px;
+	color:#FFF;
+	width:50%;
+	background:#0b73bb;
+	
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	-moz-box-shadow:0 1px 0 rgba(255,255,255,.5);
+	box-shadow:0 1px 0 rgba(255,255,255,.5);
+}
+ /* Webket Form Upload Button */
+.data_entry_view  input[type="file"] {  
+    -webkit-appearance: none /* this is the key to clearing the default styling */;
+	-webkit-appearance: textfield;
+	-webkit-box-sizing: border-box;
+}
+.data_entry_view  input[type=file]::-webkit-file-upload-button {
+    /* width: 0;
+    padding:1 0;
+    margin: 0;
+    -webkit-appearance: none;
+    border: none;
+	*/
+}
+
+.data_entry_view  x::-webkit-file-upload-button, input[type=file]:after  {
+    content: ‘Upload File‘;
+    margin:0 0 0 0.5em;
+    display: inline-block; 
+	left: 100%; position: relative;
+    padding:0.3em 0.5em;
+    border: solid 1px #ccc;
+    -webkit-appearance: none;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+
+}
+
+/* End of Webket Form Upload Button */
+.data_entry_view form label {
+	font-size:0.6em;
+	padding-left:5px;
+	margin-top:5px;
+	margin-bottom:2px;
+	color:#333;	
+	float: right;
+	
+
+}
+
+/* First Effect on Text Elements */
+.text_box, 
+.data_entry_view  input[type=text],
+.data_entry_view  input[type=password],
+.data_entry_view  input[type=url],
+.data_entry_view  input[type=tel],
+.data_entry_view  input[type=number],
+.data_entry_view  input[type=color],
+.data_entry_view  input[type=email],
+.data_entry_view  input[type="file"],
+.data_entry_view  select,
+
+.data_entry_view  textarea{
+	float: right;
+	border-width: 1px;
+	border-color: #999;
+	border-style: solid;
+	margin: 3px;
+	height: 30px;
+	width: 200px;
+}
+  
+
+ /* Form Inputs Hover Effect */
+.text_box:focus,
+.data_entry_view input[type=text]:focus,
+.data_entry_view input[type=password]:focus,
+.data_entry_view input[type=url]:focus,
+.data_entry_view input[type=tel]:focus,
+.data_entry_view input[type=number]:focus,
+.data_entry_view input[type=color]:focus,
+.data_entry_view input[type=email]:focus,
+.data_entry_view  input[type="file"]:focus,
+.data_entry_view  select:focus,
+.data_entry_view  textarea:focus
+{
+    outline: none; /* Remove Chrome outline */
+	border-width:1px;
+	border-style:solid;
+	border-color:#060;
+	
+	border:1px solid #56b4ef;
+	-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	box-shadow:inset 0 1px 3px rgba(0,0,0,.05),0 0 8px rgba(82,168,236,.6);
+	background-color:#FFF;
+}
+
+
+/* End of Form Inputs Hover Effect */
+
+
+/* Start of Form Submit Button */
+.data_entry_view input[type=submit] {
+	clear:both;
+	float:Right; /* Float has been added to Fix Google Chrome Issues */
+	overflow:visible;
+	padding:3px 10px;  /* This is some Problem with Google Chrome in this Padding Property, needs review */
+	
+	line-height:18px;
+	
+	
+	cursor:pointer;
+	
+
+		
+
+	
+ }
+
+.data_entry_view input[type=submit]:hover,
+.data_entry_view input[type=submit]:focus {
+}
+/* End of Form Submit Button */
+
+
+ .glow_button {  /* Misbah (glow) form button formating */
+	
+}
+.glow_button:hover {
+	
+ }
+ 
+ .readjust_font{
+	font-size:0.8em;	 
+ }

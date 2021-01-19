@@ -1,0 +1,47 @@
+/*
+=====================================================================================================
+The file is used to create columns, which can be used for forms formating, and other text formating
+=====================================================================================================
+*/
+
+.data_column_a{
+	width:250px;
+	float:right;
+	margin:6px;
+	overflow:hidden;
+		
+}
+
+
+.data_column_a .text_box, 
+.data_column_a .data_entry_view form label,
+.data_column_a .data_entry_view  input[type=text],
+.data_column_a .data_entry_view  input[type=password],
+.data_column_a .data_entry_view  input[type=url],
+.data_column_a .data_entry_view  input[type=tel],
+.data_column_a .data_entry_view  input[type=number],
+.data_column_a .data_entry_view  input[type=color],
+.data_column_a .data_entry_view  input[type=email],
+.data_column_a .data_entry_view  input[type="file"],
+.data_column_a .data_entry_view  select,
+.data_column_a .data_entry_view  textarea{
+
+	
+	width:96%;
+	
+}
+.data_column_b{
+	width:512px;
+	float:left;
+	margin:6px;
+	overflow:hidden;	
+
+}
+.data_column_c{
+	width:774px;
+	float:left;
+	margin:6px;
+	overflow:hidden;		
+}
+
+

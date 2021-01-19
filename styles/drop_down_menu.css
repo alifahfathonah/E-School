@@ -1,0 +1,59 @@
+.zorkif_drop_down_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	
+}
+
+
+.zorkif_drop_down_menu ul li a.main_menu {
+	display: block;
+	text-decoration: none;	
+	margin-right: 1px;
+	white-space: nowrap;
+	color:#FFF;	
+	height:25px;
+	padding-left:5px;
+	padding-right:5px;
+}
+.zorkif_drop_down_menu ul li a.main_menu:hover {
+	background-color:#ffffff;
+	-webkit-border-radius:4px 4px 0 0;
+	-moz-border-radius:4px 4px 0 0;
+	border-radius:4px 4px 0 0;
+	
+}
+.zorkif_drop_down_menu li ul {
+    display: none;
+}
+.zorkif_drop_down_menu li ul.sub_menu {
+	width: 180px;
+	display: none;
+	border-color: #0B73BB;
+	background-color: #ffffff;
+	z-index: 9999;
+	-webkit-border-radius: 0 0 4px 4px;
+	-moz-border-radius: 0 0 4px 4px;
+	border-radius: 0 0 4px 4px;
+	padding: 5px;
+	border-bottom:solid 1px #0B73BB;
+	border-left:solid 1px #0B73BB;
+	border-right:solid 1px #0B73BB;
+
+}
+
+.zorkif_drop_down_menu li ul.sub_menu  li {
+	 width:80%;	
+}
+.zorkif_drop_down_menu li ul.sub_menu  li a{
+	
+	margin:0px;
+	color:#4e4e50;
+}
+.zorkif_drop_down_menu ul li a:hover {
+	/* [disabled]background: #3b3b3b; */
+}
+.zorkif_drop_down_menu li:hover ul {
+    display: block;
+    position: absolute;
+}
